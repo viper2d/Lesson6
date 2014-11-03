@@ -1,6 +1,6 @@
 package Lesson6;
 
-public class lessonThreeTask {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -19,4 +19,3 @@ public class lessonThreeTask {
     }
 
 }
-
