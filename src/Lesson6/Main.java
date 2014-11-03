@@ -1,5 +1,6 @@
 package Lesson6;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,9 +12,9 @@ public class Main {
         blueCar.showInfo();
 
         Person person = new Person("Igor");
+        person.showPerson();
 
         Car blackCarWithDriver = new Car("black", person);
-        System.out.println("Ping!");
         blackCarWithDriver.showInfo();
 
     }

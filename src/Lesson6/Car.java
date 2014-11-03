@@ -1,21 +1,21 @@
 package Lesson6;
 
-/**
- * Created by prov on 10/30/14.
- */
+
 public class Car {
 
     private String color;
-    public Person person;
+    Person person;
 
     public Car() {
 
         this.color = "silver";
+
     }
 
     public Car(String color) {
 
         this.color = color;
+
     }
 
     public Car(String color, Person person) {
@@ -26,8 +26,18 @@ public class Car {
     }
 
     public void showInfo() {
+        
+        if (person != null) {
 
-        System.out.println("Car color is " + color);
+            System.out.println("Car color is " + color + ". Drivers name is " + person);
+
+        }
+
+        else if (person == null) {
+
+            System.out.println("Car color is " + color);
+
+        }
 
     }
 
