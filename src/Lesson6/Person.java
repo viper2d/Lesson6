@@ -5,17 +5,13 @@ public class Person {
 
     private String person;
 
-    public Person(String person) {
-
-        this.person = person;
-
-        System.out.println(person);
-
+    public String getPerson() {
+        return person;
     }
 
-    public void showPerson() {
-
-        System.out.println(person);
-
+    public Person(String name) {
+        this.person = name;
     }
+
+
 }

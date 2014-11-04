@@ -29,7 +29,7 @@ public class Car {
         
         if (person != null) {
 
-            System.out.println("Car color is " + color + ". Drivers name is " + person);
+            System.out.println("Car color is " + color + ". Drivers name is " + person.getPerson());
 
         }
 

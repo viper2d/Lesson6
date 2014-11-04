@@ -12,7 +12,6 @@ public class Main {
         blueCar.showInfo();
 
         Person person = new Person("Igor");
-        person.showPerson();
 
         Car blackCarWithDriver = new Car("black", person);
         blackCarWithDriver.showInfo();
